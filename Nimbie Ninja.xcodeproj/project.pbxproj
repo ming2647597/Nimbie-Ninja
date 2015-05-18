@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CFB83E01B09D00F0005F564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB83DF1B09D00F0005F564 /* AppDelegate.swift */; };
+		8CFB83E21B09D00F0005F564 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8CFB83E11B09D00F0005F564 /* GameScene.sks */; };
+		8CFB83E41B09D00F0005F564 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB83E31B09D00F0005F564 /* GameScene.swift */; };
+		8CFB83E61B09D00F0005F564 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB83E51B09D00F0005F564 /* GameViewController.swift */; };
+		8CFB83E91B09D00F0005F564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFB83E71B09D00F0005F564 /* Main.storyboard */; };
+		8CFB83EB1B09D00F0005F564 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFB83EA1B09D00F0005F564 /* Images.xcassets */; };
+		8CFB83EE1B09D00F0005F564 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CFB83EC1B09D00F0005F564 /* LaunchScreen.xib */; };
+		8CFB83FA1B09D00F0005F564 /* Nimbie_NinjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB83F91B09D00F0005F564 /* Nimbie_NinjaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CFB83F41B09D00F0005F564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CFB83D21B09D00F0005F564 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CFB83D91B09D00F0005F564;
+			remoteInfo = "Nimbie Ninja";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8CFB83DA1B09D00F0005F564 /* Nimbie Ninja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nimbie Ninja.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFB83DE1B09D00F0005F564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CFB83DF1B09D00F0005F564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CFB83E11B09D00F0005F564 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		8CFB83E31B09D00F0005F564 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8CFB83E51B09D00F0005F564 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8CFB83E81B09D00F0005F564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CFB83EA1B09D00F0005F564 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8CFB83ED1B09D00F0005F564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8CFB83F31B09D00F0005F564 /* Nimbie NinjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nimbie NinjaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFB83F81B09D00F0005F564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CFB83F91B09D00F0005F564 /* Nimbie_NinjaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nimbie_NinjaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CFB83D71B09D00F0005F564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CFB83F01B09D00F0005F564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CFB83D11B09D00F0005F564 = {
+			isa = PBXGroup;
+			children = (
+				8CFB83DC1B09D00F0005F564 /* Nimbie Ninja */,
+				8CFB83F61B09D00F0005F564 /* Nimbie NinjaTests */,
+				8CFB83DB1B09D00F0005F564 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CFB83DB1B09D00F0005F564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CFB83DA1B09D00F0005F564 /* Nimbie Ninja.app */,
+				8CFB83F31B09D00F0005F564 /* Nimbie NinjaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CFB83DC1B09D00F0005F564 /* Nimbie Ninja */ = {
+			isa = PBXGroup;
+			children = (
+				8CFB83DF1B09D00F0005F564 /* AppDelegate.swift */,
+				8CFB83E11B09D00F0005F564 /* GameScene.sks */,
+				8CFB83E31B09D00F0005F564 /* GameScene.swift */,
+				8CFB83E51B09D00F0005F564 /* GameViewController.swift */,
+				8CFB83E71B09D00F0005F564 /* Main.storyboard */,
+				8CFB83EA1B09D00F0005F564 /* Images.xcassets */,
+				8CFB83EC1B09D00F0005F564 /* LaunchScreen.xib */,
+				8CFB83DD1B09D00F0005F564 /* Supporting Files */,
+			);
+			path = "Nimbie Ninja";
+			sourceTree = "<group>";
+		};
+		8CFB83DD1B09D00F0005F564 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CFB83DE1B09D00F0005F564 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CFB83F61B09D00F0005F564 /* Nimbie NinjaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CFB83F91B09D00F0005F564 /* Nimbie_NinjaTests.swift */,
+				8CFB83F71B09D00F0005F564 /* Supporting Files */,
+			);
+			path = "Nimbie NinjaTests";
+			sourceTree = "<group>";
+		};
+		8CFB83F71B09D00F0005F564 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CFB83F81B09D00F0005F564 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CFB83D91B09D00F0005F564 /* Nimbie Ninja */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CFB83FD1B09D00F0005F564 /* Build configuration list for PBXNativeTarget "Nimbie Ninja" */;
+			buildPhases = (
+				8CFB83D61B09D00F0005F564 /* Sources */,
+				8CFB83D71B09D00F0005F564 /* Frameworks */,
+				8CFB83D81B09D00F0005F564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nimbie Ninja";
+			productName = "Nimbie Ninja";
+			productReference = 8CFB83DA1B09D00F0005F564 /* Nimbie Ninja.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8CFB83F21B09D00F0005F564 /* Nimbie NinjaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CFB84001B09D00F0005F564 /* Build configuration list for PBXNativeTarget "Nimbie NinjaTests" */;
+			buildPhases = (
+				8CFB83EF1B09D00F0005F564 /* Sources */,
+				8CFB83F01B09D00F0005F564 /* Frameworks */,
+				8CFB83F11B09D00F0005F564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8CFB83F51B09D00F0005F564 /* PBXTargetDependency */,
+			);
+			name = "Nimbie NinjaTests";
+			productName = "Nimbie NinjaTests";
+			productReference = 8CFB83F31B09D00F0005F564 /* Nimbie NinjaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CFB83D21B09D00F0005F564 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Tomorrow;
+				TargetAttributes = {
+					8CFB83D91B09D00F0005F564 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8CFB83F21B09D00F0005F564 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8CFB83D91B09D00F0005F564;
+					};
+				};
+			};
+			buildConfigurationList = 8CFB83D51B09D00F0005F564 /* Build configuration list for PBXProject "Nimbie Ninja" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CFB83D11B09D00F0005F564;
+			productRefGroup = 8CFB83DB1B09D00F0005F564 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CFB83D91B09D00F0005F564 /* Nimbie Ninja */,
+				8CFB83F21B09D00F0005F564 /* Nimbie NinjaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CFB83D81B09D00F0005F564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFB83EE1B09D00F0005F564 /* LaunchScreen.xib in Resources */,
+				8CFB83EB1B09D00F0005F564 /* Images.xcassets in Resources */,
+				8CFB83E21B09D00F0005F564 /* GameScene.sks in Resources */,
+				8CFB83E91B09D00F0005F564 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CFB83F11B09D00F0005F564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CFB83D61B09D00F0005F564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFB83E41B09D00F0005F564 /* GameScene.swift in Sources */,
+				8CFB83E61B09D00F0005F564 /* GameViewController.swift in Sources */,
+				8CFB83E01B09D00F0005F564 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CFB83EF1B09D00F0005F564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFB83FA1B09D00F0005F564 /* Nimbie_NinjaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CFB83F51B09D00F0005F564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8CFB83D91B09D00F0005F564 /* Nimbie Ninja */;
+			targetProxy = 8CFB83F41B09D00F0005F564 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8CFB83E71B09D00F0005F564 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CFB83E81B09D00F0005F564 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8CFB83EC1B09D00F0005F564 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CFB83ED1B09D00F0005F564 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CFB83FB1B09D00F0005F564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CFB83FC1B09D00F0005F564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CFB83FE1B09D00F0005F564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nimbie Ninja/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8CFB83FF1B09D00F0005F564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Nimbie Ninja/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8CFB84011B09D00F0005F564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Nimbie NinjaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimbie Ninja.app/Nimbie Ninja";
+			};
+			name = Debug;
+		};
+		8CFB84021B09D00F0005F564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Nimbie NinjaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nimbie Ninja.app/Nimbie Ninja";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CFB83D51B09D00F0005F564 /* Build configuration list for PBXProject "Nimbie Ninja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CFB83FB1B09D00F0005F564 /* Debug */,
+				8CFB83FC1B09D00F0005F564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CFB83FD1B09D00F0005F564 /* Build configuration list for PBXNativeTarget "Nimbie Ninja" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CFB83FE1B09D00F0005F564 /* Debug */,
+				8CFB83FF1B09D00F0005F564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8CFB84001B09D00F0005F564 /* Build configuration list for PBXNativeTarget "Nimbie NinjaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CFB84011B09D00F0005F564 /* Debug */,
+				8CFB84021B09D00F0005F564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CFB83D21B09D00F0005F564 /* Project object */;
+}
