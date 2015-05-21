@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C6043BA1B0DB9CA00B4DE87 /* MLWallGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6043B91B0DB9CA00B4DE87 /* MLWallGenerator.swift */; };
+		8C6043BC1B0DB9F400B4DE87 /* MLWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C6043BB1B0DB9F400B4DE87 /* MLWall.swift */; };
+		8C9EC92D1B0CB861001FDE41 /* constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9EC92C1B0CB861001FDE41 /* constants.swift */; };
+		8C9EC92F1B0CC516001FDE41 /* MLCloudGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9EC92E1B0CC516001FDE41 /* MLCloudGenerator.swift */; };
+		8C9EC9311B0CC604001FDE41 /* MLCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9EC9301B0CC604001FDE41 /* MLCloud.swift */; };
+		8C9EC9331B0CCB9E001FDE41 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8C9EC9321B0CCB9E001FDE41 /* background.jpg */; };
 		8CFB83E01B09D00F0005F564 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB83DF1B09D00F0005F564 /* AppDelegate.swift */; };
-		8CFB83E21B09D00F0005F564 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8CFB83E11B09D00F0005F564 /* GameScene.sks */; };
 		8CFB83E41B09D00F0005F564 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB83E31B09D00F0005F564 /* GameScene.swift */; };
 		8CFB83E61B09D00F0005F564 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB83E51B09D00F0005F564 /* GameViewController.swift */; };
 		8CFB83E91B09D00F0005F564 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CFB83E71B09D00F0005F564 /* Main.storyboard */; };
 		8CFB83EB1B09D00F0005F564 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CFB83EA1B09D00F0005F564 /* Images.xcassets */; };
 		8CFB83EE1B09D00F0005F564 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CFB83EC1B09D00F0005F564 /* LaunchScreen.xib */; };
 		8CFB83FA1B09D00F0005F564 /* Nimbie_NinjaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB83F91B09D00F0005F564 /* Nimbie_NinjaTests.swift */; };
+		8CFB84041B09F2150005F564 /* MLMovingGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB84031B09F2150005F564 /* MLMovingGround.swift */; };
+		8CFB84061B0A0A250005F564 /* MLHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CFB84051B0A0A250005F564 /* MLHero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +35,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C6043B91B0DB9CA00B4DE87 /* MLWallGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLWallGenerator.swift; sourceTree = "<group>"; };
+		8C6043BB1B0DB9F400B4DE87 /* MLWall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLWall.swift; sourceTree = "<group>"; };
+		8C9EC92C1B0CB861001FDE41 /* constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constants.swift; sourceTree = "<group>"; };
+		8C9EC92E1B0CC516001FDE41 /* MLCloudGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLCloudGenerator.swift; sourceTree = "<group>"; };
+		8C9EC9301B0CC604001FDE41 /* MLCloud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLCloud.swift; sourceTree = "<group>"; };
+		8C9EC9321B0CCB9E001FDE41 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		8CFB83DA1B09D00F0005F564 /* Nimbie Ninja.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nimbie Ninja.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFB83DE1B09D00F0005F564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CFB83DF1B09D00F0005F564 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8CFB83E11B09D00F0005F564 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		8CFB83E31B09D00F0005F564 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		8CFB83E51B09D00F0005F564 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		8CFB83E81B09D00F0005F564 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +52,8 @@
 		8CFB83F31B09D00F0005F564 /* Nimbie NinjaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nimbie NinjaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CFB83F81B09D00F0005F564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CFB83F91B09D00F0005F564 /* Nimbie_NinjaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nimbie_NinjaTests.swift; sourceTree = "<group>"; };
+		8CFB84031B09F2150005F564 /* MLMovingGround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLMovingGround.swift; sourceTree = "<group>"; };
+		8CFB84051B0A0A250005F564 /* MLHero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLHero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,13 +96,19 @@
 			isa = PBXGroup;
 			children = (
 				8CFB83DF1B09D00F0005F564 /* AppDelegate.swift */,
-				8CFB83E11B09D00F0005F564 /* GameScene.sks */,
 				8CFB83E31B09D00F0005F564 /* GameScene.swift */,
+				8CFB84031B09F2150005F564 /* MLMovingGround.swift */,
 				8CFB83E51B09D00F0005F564 /* GameViewController.swift */,
 				8CFB83E71B09D00F0005F564 /* Main.storyboard */,
 				8CFB83EA1B09D00F0005F564 /* Images.xcassets */,
 				8CFB83EC1B09D00F0005F564 /* LaunchScreen.xib */,
 				8CFB83DD1B09D00F0005F564 /* Supporting Files */,
+				8CFB84051B0A0A250005F564 /* MLHero.swift */,
+				8C9EC92C1B0CB861001FDE41 /* constants.swift */,
+				8C9EC92E1B0CC516001FDE41 /* MLCloudGenerator.swift */,
+				8C9EC9301B0CC604001FDE41 /* MLCloud.swift */,
+				8C6043B91B0DB9CA00B4DE87 /* MLWallGenerator.swift */,
+				8C6043BB1B0DB9F400B4DE87 /* MLWall.swift */,
 			);
 			path = "Nimbie Ninja";
 			sourceTree = "<group>";
@@ -96,6 +116,7 @@
 		8CFB83DD1B09D00F0005F564 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8C9EC9321B0CCB9E001FDE41 /* background.jpg */,
 				8CFB83DE1B09D00F0005F564 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -199,8 +220,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CFB83EE1B09D00F0005F564 /* LaunchScreen.xib in Resources */,
+				8C9EC9331B0CCB9E001FDE41 /* background.jpg in Resources */,
 				8CFB83EB1B09D00F0005F564 /* Images.xcassets in Resources */,
-				8CFB83E21B09D00F0005F564 /* GameScene.sks in Resources */,
 				8CFB83E91B09D00F0005F564 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +240,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C9EC9311B0CC604001FDE41 /* MLCloud.swift in Sources */,
 				8CFB83E41B09D00F0005F564 /* GameScene.swift in Sources */,
+				8C6043BA1B0DB9CA00B4DE87 /* MLWallGenerator.swift in Sources */,
 				8CFB83E61B09D00F0005F564 /* GameViewController.swift in Sources */,
+				8CFB84061B0A0A250005F564 /* MLHero.swift in Sources */,
 				8CFB83E01B09D00F0005F564 /* AppDelegate.swift in Sources */,
+				8C6043BC1B0DB9F400B4DE87 /* MLWall.swift in Sources */,
+				8C9EC92F1B0CC516001FDE41 /* MLCloudGenerator.swift in Sources */,
+				8CFB84041B09F2150005F564 /* MLMovingGround.swift in Sources */,
+				8C9EC92D1B0CB861001FDE41 /* constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +445,7 @@
 				8CFB83FF1B09D00F0005F564 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CFB84001B09D00F0005F564 /* Build configuration list for PBXNativeTarget "Nimbie NinjaTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +454,7 @@
 				8CFB84021B09D00F0005F564 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
